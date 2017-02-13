@@ -66,7 +66,7 @@ With the --duplicates setting the scan will not ignore multiple packets from the
 		
 The above commands are only a part of the puzzle.  The data dumped by hcidump isn’t anything nice to work with.
 
-Instead, we can take a look at a very popular parsing tool released by [Radius Networks].(http://developer.radiusnetworks.com/ibeacon/idk/ibeacon_scan)
+Instead, we can take a look at a very popular parsing tool released by [Radius Networks]http://developer.radiusnetworks.com/ibeacon/idk/ibeacon_scan).
 
 		sudo ./ibeacon_scan
 		
