@@ -1,5 +1,8 @@
-# test BLE Scanning software
-# jcs 6/8/2014
+#------------- BLE Scanning software------------#
+#						#
+#	KRUNAL PATEL @krunawave@gmail.com	#
+#						#
+# ----------------------------------------------#
 
 import blescan
 import sys
