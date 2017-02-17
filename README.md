@@ -75,7 +75,7 @@ Instead, we can take a look at a very popular parsing tool released by [Radius N
 	
 		sudo hcidump -R							// "-R" to show the raw data
 		sudo hcidump -x							// "-x" for hex dumping
-		sudo hcidump -R > out 2>&1					// saving raw data into file
+		sudo hcidump -R > out 2>&1				// saving raw data into file
 		
 
 ## Method 2 (Using BlueZ Library)
