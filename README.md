@@ -4,7 +4,6 @@ Raspbberry Pi3 based Beacon Reader
 ##Hardware Requirements
 Most likely you'll already have some of these components
 
-* Ctrl+S / Cmd+S to s
 * Raspberry Pi3 Model B
 * 8gb SD with NOOBS 1.4 already loaded
 * Beacons (Any Brand) / or you can use "[BLE Beacon Simulator](https://play.google.com/store/apps/details?id=net.alea.beaconsimulator&hl=en)" Android App 
