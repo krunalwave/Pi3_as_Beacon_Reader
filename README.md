@@ -66,7 +66,7 @@ With the --duplicates setting the scan will not ignore multiple packets from the
 		
 The above commands are only a part of the puzzle.  The data dumped by hcidump isn’t anything nice to work with.
 
-Instead, we can take a look at a very popular parsing tool released by [Radius Networks]http://developer.radiusnetworks.com/ibeacon/idk/ibeacon_scan).
+Instead, we can take a look at a very popular parsing tool released by [Radius Networks](http://developer.radiusnetworks.com/ibeacon/idk/ibeacon_scan).
 
 		sudo ./ibeacon_scan
 		
@@ -75,7 +75,7 @@ Instead, we can take a look at a very popular parsing tool released by [Radius N
 	
 		sudo hcidump -R							// "-R" to show the raw data
 		sudo hcidump -x							// "-x" for hex dumping
-		sudo hcidump -R > out 2>&1			// saving raw data into file
+		sudo hcidump -R > out 2>&1					// saving raw data into file
 		
 
 ## Method 2 (Using BlueZ Library)
@@ -124,8 +124,6 @@ Finally, turn on the device:
 And now run the blescanner command to see what iBeacons might be around you.  If you don’t have an iBeacon, you can simulate on with your either iPhone or Android phone with any of a number of apps on the Appstores.
 
 	sudo python testblescan.py
-	
-	pi@BeaconAir ~/blescanner $ sudo python testblescan.py
 		ble thread started
 		----------
 		cf:68:cc:c7:33:10,b9407f30f5f8466eaff925556b57fe6d,13072,52423,-74,-78
@@ -135,8 +133,9 @@ And now run the blescanner command to see what iBeacons might be around you.  If
 
 The content of each line above is:
 
-example: cf:68:cc:c7:33:10,b9407f30f5f8466eaff925556b57fe6d,13072,52423,-74,-78
-Beacon MAC Address, iBeacon UDID, iBeacon Major Number, iBeacon Minor Number, TX Power at 1m, RSSI
+example: 	
+	cf:68:cc:c7:33:10, b9407f30f5f8466eaff925556b57fe6d, 13072, 52423, -74, -78
+	Beacon MAC Address, iBeacon UDID, iBeacon Major Number, iBeacon Minor Number, TX Power at 1m, RSSI
 
 ##Conclusion
 With the price of iBeacons and Raspberry Pi devices being so low, it makes developing with the two more enjoyable.  To scan for iBeacon devices with a Raspberry Pi, you need the BlueZ tool set and the convenient Radius Networks command line script.  There are many other ways to scan for proximity beacons on a Raspberry Pi, for example Python, but that is a story best saved for another day.
